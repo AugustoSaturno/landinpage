@@ -34,6 +34,7 @@ body {
     background-color: burlywood;
 }
 
+
 .bottom {
     display: flex;
     gap: 5rem;
@@ -57,17 +58,24 @@ body {
     
 }
 
+.welcome {
+    height: 60vh !important;
+    background-color: chartreuse;
+    font-size: 2rem;
+    padding: 4rem;
+}
+
 article {
     font-size: 5rem;
     width: 90%;
     min-width: 30rem;
-    max-width: 60rem;
-    height: 90vh;
+    max-width: 70rem;
+    height: 45vh;
     margin: 3rem auto;
     display: grid;
     grid-template-columns: 46% repeat(2, 1fr);
     place-items: center;
-    color: brown;
+    color:black;
     font-family: monospace;
     font-weight: bold;
     line-height: 1.8rem;
@@ -84,7 +92,8 @@ padding: 1.5rem;
 }
 
 h4 {
-    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
 }
 
 .formulary {
@@ -153,7 +162,7 @@ input, textarea {
 }
 .footer {
     width: 100%;
-    background-color: blue;
+    background-color: darkgoldenrod;
     padding: 2rem;
     align-items: center;
     justify-content: space-around;
